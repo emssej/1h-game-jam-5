@@ -1,0 +1,13 @@
+body {
+    background: gray;
+    overflow: hidden !important;
+
+    text-rendering: optimizeSpeed;
+    font-smooth: never;
+    user-select: none;
+}
+
+canvas {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
